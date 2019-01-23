@@ -120,12 +120,7 @@ export default class App extends Component {
       }
     }
   }
-  
-
-  /*
-  View Design sample from bootstrap reponsive
-  All layout full reponsive not can't width or height
-  */
+  // Full flex
 
   render() {
     return (
@@ -170,6 +165,13 @@ export default class App extends Component {
     )
   }
 }
+
+  /*
+  View Design sample from bootstrap reponsive
+  All layout full reponsive not can't width or height
+  İn logic bootstrap row col-md-2 6 row 4 column
+  */
+
 
 const s = StyleSheet.create({
     contanier:{
